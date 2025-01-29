@@ -55,22 +55,17 @@ The repository contains the following folders:
 # Cite
 If you think this tool is useful for your research, please consider citing it:
 ```bibtex
-@article{GonzalezMateos2024,
-title = {A PID Control Architecture Based on IEC 61499},
-author = {Guzmán González-Mateos and Miguel A Prada and Antonio Morán and Raúl González-Herbón and Manuel Domínguez},
-doi = {10.1016/j.ifacol.2024.08.016},
-issn = {2405-8963},
-year = {2024},
-date = {2024-08-28},
-urldate = {2024-08-28},
-journal = {IFAC-PapersOnLine},
-volume = {58},
-number = {7},
-pages = {91-96},
-abstract = {This work presents an approach for PID control and optimization in a distributed system, using the IEC 61499 control standard. This standard enables communication among different PLCs, which are used to develop a three-layered event-driven control of a SISO loop. The lowest layer is in charge of cyclical data acquisition. The second layer carries out an event-based PID control. The highest layer runs a control optimization algorithm, specifically a simple tuning approach based on Ziegler-Nichols that is used to determine the PID parameters for different operating points. The proposed approach is assessed in a tank level SISO control problem, whose behavior can be modeled as a first-order plus dead time system in each operating point. For that purpose, it has been implemented using two PLCs and a software PLC running on an industrial computer. The experimental results on the SISO level control loop show the feasibility of the proposed approach for event-driven control in a distributed system and open interesting research questions in the intersection of controller design and distributed automation.},
-note = {4th IFAC Conference on Advances in Proportional-Integral-Derivate Control PID 2024},
-keywords = {AUTOMATIZACIÓN CONTROL Y SUPERVISIÓN INDUSTRIAL},
-pubstate = {published},
-tppubtype = {article}
+@article{GonzlezMateos2024,
+  title = {A PID Control Architecture Based on IEC 61499},
+  volume = {58},
+  ISSN = {2405-8963},
+  url = {http://dx.doi.org/10.1016/j.ifacol.2024.08.016},
+  DOI = {10.1016/j.ifacol.2024.08.016},
+  number = {7},
+  journal = {IFAC-PapersOnLine},
+  publisher = {Elsevier BV},
+  author = {González-Mateos,  Guzmán and Prada,  Miguel A. and Morán,  Antonio and González-Herbón,  Raúl and Domínguez,  Manuel},
+  year = {2024},
+  pages = {91–96}
 }
 ```
