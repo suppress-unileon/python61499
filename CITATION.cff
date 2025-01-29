@@ -17,6 +17,7 @@ authors:
 identifiers:
   - type: doi
     value: 10.1016/j.ifacol.2024.08.016
+year: 2024
 repository-code: 'https://github.com/suppress-unileon/python61499'
 abstract: >-
   This is a Python tool to integrate high-level code with
