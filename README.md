@@ -1,6 +1,6 @@
 # python61499
 
-This is a Python tool to integrate high-level code with IEC 61499 standard, specifically with ***EchoStruxure Automation Expert*** (Schneider Electric).
+This is a Python tool (licensed under Apache 2.0) to integrate high-level code with IEC 61499 standard, specifically with ***EchoStruxure Automation Expert*** (Schneider Electric).
 
 The tool is developed by [SUPPRESS Research Group](https://suppress.unileon.es/en/), from [Universidad de León](https://www.unileon.es/).
 
