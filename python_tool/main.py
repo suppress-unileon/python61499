@@ -17,7 +17,7 @@ if __name__ == "__main__":
                         format='[%(asctime)s][%(levelname)s][%(threadName)s] %(message)s')
     
     # Creates the tcp server to communicate with Ecostruxure Automation Expert
-    server = TCP_Server('127.0.0.1',61499)
+    server = TCP_Server('',61499)
     
     while True:
         try:
